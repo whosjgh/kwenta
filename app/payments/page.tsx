@@ -116,12 +116,7 @@ const Calendar = () => {
               className="px-4 py-2 rounded-lg bg-gradient-to-b from-green-900 to-zinc-900 text-white border border-[#006B46] focus:outline-none focus:ring-2 focus:ring-[#00824F]"
             >
               {months.map((m) => (
-                <option
-                  key={m}
-                  value={m}
-                  className="bg-[#004830
-                ]"
-                >
+                <option key={m} value={m} className="bg-[#004830]">
                   {m}
                 </option>
               ))}
